@@ -10,8 +10,8 @@ public class Run {
 
         int row = 0;
         int column = 0;
-        cpu.startProcess(row, column);
+        cpu.startProcess(row, column, 1);
 
-        System.out.println(ConsoleColors.RED_BRIGHT + "Dispositivo encerrando...\n" + ConsoleColors.RESET);
+        System.out.println(ConsoleColors.RED_BRIGHT + "Dispositivo encerrado...\n" + ConsoleColors.RESET);
     }
 }
